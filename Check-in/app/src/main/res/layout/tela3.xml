@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editTextEntrada"
+        android:hint="entrada" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editTextSaida"
+        android:hint="saida" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSuites"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:hint="suites" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="okClick" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextResultado" />
+
+
+    <Button
+        android:id="@+id/btConfirmar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="confirmar"
+        android:onClick="passatela4"
+        />
+
+
+
+</LinearLayout>
+
+
+

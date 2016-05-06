@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textPersonName"
+        android:hint="nome"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/editTextTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="telefone"
+        android:layout_marginTop="5dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editTexCpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="cpf"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Email"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextConta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="conta"
+        android:layout_marginTop="5dp"
+
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        
+        >
+
+        <Button
+            android:id="@+id/btConfirmar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="confirmar"
+            android:onClick="passatela5"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
