@@ -1,3 +1,5 @@
 # check_in
 
-aqui vai o meu projeto.
+
+
+eu sou Fauta estudante de engenharia de energia.
